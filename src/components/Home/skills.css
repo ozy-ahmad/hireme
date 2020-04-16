@@ -1,0 +1,9 @@
+.skills {
+  background-color: #645e91;
+}
+.skills-image {
+  width: 12rem;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}

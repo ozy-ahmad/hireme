@@ -1,0 +1,11 @@
+.header {
+  /* background-image: linear-gradient(#7bd5f5, #787ff6); */
+  background-image: white;
+  background-color: white;
+}
+.header .header-image {
+  width: 80%;
+}
+.contact-button {
+  background-color: #645e91;
+}
