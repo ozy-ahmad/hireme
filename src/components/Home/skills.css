@@ -1,8 +1,9 @@
 .skills {
-  background-color: #645e91;
+  /* background-color: #645e91; */
+  background-color: #5f82a4;
 }
-.skills-image {
-  width: 12rem;
+img.col.skills-image {
+  width: 50px;
   display: flex;
   justify-content: center;
   justify-items: center;

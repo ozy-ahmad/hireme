@@ -7,7 +7,7 @@ export default class Contactme extends Component {
         <div className=" container">
           <h2>Get In Touch</h2>
           <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-          <p class="contact-message">
+          <p className="contact-message">
             Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales,
             tellus donec dui, ornare erat.
           </p>

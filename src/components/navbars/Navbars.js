@@ -6,7 +6,7 @@ class Navbars extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-dark sticky-top nav-style">
+        <nav className="navbar navbar-expand-lg navbar-light sticky-top nav-style">
           <Link className="navbar-brand" to="/">
             21 AM
           </Link>

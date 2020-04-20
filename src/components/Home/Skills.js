@@ -10,15 +10,12 @@ class Skills extends Component {
       <section className="skills jumbotron jumbotron-fluid">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4">
-              <img className="skills-image" src={HTML} alt="HTML" />
-            </div>
-            <div className="col-lg-4">
-              <img className="skills-image" src={CSS} alt="CSS" />
-            </div>
-            <div className="col-lg-4">
-              <img className="skills-image" src={JS} alt="JS" />
-            </div>
+            <img className="col skills-image" src={HTML} alt="HTML" />
+
+            <img className="col skills-image" src={CSS} alt="CSS" />
+
+            <img className="col skills-image" src={JS} alt="JS" />
+
             {/* <div className="col">
               <img className="skills-image" scr={Log1} alt="React" />
             </div> */}
