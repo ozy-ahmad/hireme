@@ -1,26 +1,31 @@
 /* .nav-style {
   background-color: #ededed;
 } */
-/* a.navbar-brand {
-  padding-left: 10rem;
+a.navbar-brand {
+  padding-left: 5rem;
 }
 a.nav-link {
-  padding-right: 5rem;
-} */
+  padding-right: 50rem;
+}
 nav {
   width: 100%;
   margin: 0 auto;
-  /* background: #0c0f38;
-  background: #5f82a4; */
+  background: #0c0f38;
+  background: #5f82a4;
   background: whitesmoke;
   padding: 20px 0;
   box-shadow: 0 3px 2px #dedede;
 }
+nav ul li {
+  display: inline-block;
+}
 nav ul li a {
-  display: block;
-  padding: 15px;
+  display: flex;
   text-decoration: none;
   color: black;
   font-weight: 800;
   margin: 0 10px;
+}
+.logo-image {
+  width: 3rem;
 }

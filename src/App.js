@@ -7,12 +7,14 @@ import Hireme from "./components/hireme/Hireme";
 import Navbars from "./components/navbars/Navbars";
 import Footer from "./components/footer/Footer";
 
+// import data from "../src/components/portfolio/Image";
 import DetailArticle from "./components/article/detail/Detailarticle";
 
 function App() {
   return (
     <Router>
       <Navbars />
+
       <Switch>
         <Route exact path="/" component={Home}></Route>
         <Route exact path="/portfolio" component={Portfolio}></Route>

@@ -13,7 +13,7 @@ class Footer extends Component {
           <Link to="https://twitter.com/" target="_blank">
             <i className="social-icon fab fa-twitter"></i>
           </Link>
-          <Link to="https://instagram.com/" target="_blank">
+          <Link to="https://instagram.com/ozy_ahmad" target="_blank">
             <i className="social-icon fab fa-instagram"></i>
           </Link>
           <Link to="https://gmail.com/" target="_blank">
