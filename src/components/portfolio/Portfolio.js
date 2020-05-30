@@ -14,6 +14,11 @@ import {
   Container,
 } from "reactstrap";
 import tindog from "./img/tindog.png";
+import dice from "./img/dice-game.png";
+import drum from "./img/drumkit.png";
+import circle from "./img/circle.png";
+import am from "./img/21am.png";
+import thisisozy from "./img/thisisozy.png";
 
 const Portfolio = () => {
   return (
@@ -42,14 +47,16 @@ const Portfolio = () => {
         <Col>
           <Card>
             <CardBody>
-              <CardTitle>Tindog</CardTitle>
+              <CardTitle>
+                <strong>tindog</strong>
+              </CardTitle>
               <CardSubtitle>Company Website</CardSubtitle>
             </CardBody>
-            <img width="100%" src={tindog} alt="Card images cap" />
+            <img width="100%" src={tindog} alt="tindog" />
             <CardBody>
               <CardText>
-                tindog is a company website which is the cloning of tinder. this
-                app build using HTML,CSS,Bootstrap.
+                tindog is a company website which is using tinder as the
+                benchmark. this app build using HTML,CSS,Bootstrap.
               </CardText>
               <CardLink
                 href="https://github.com/ozy-ahmad/tindog-company-website"
@@ -66,34 +73,48 @@ const Portfolio = () => {
         <Col>
           <Card>
             <CardBody>
-              <CardTitle>Drum kit</CardTitle>
-              <CardSubtitle>Card s</CardSubtitle>
+              <CardTitle>
+                <strong>Drum kit </strong>
+              </CardTitle>
+              <CardSubtitle>Document Object Model Manipulation</CardSubtitle>
             </CardBody>
-            <img width="100%" src="/assets/318x180.svg" alt="Card images cap" />
+            <img width="100%" src={drum} alt="Card images cap" />
             <CardBody>
               <CardText>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                This is a project Drumkit so user can play around with drumkit
+                web app by pressing their keyboard or click the elements. this
+                web app build using HTML,CSS,JS
               </CardText>
-              <CardLink href="#">Github Link</CardLink>
-              <CardLink href="#">Website Link</CardLink>
+              <CardLink
+                href="https://github.com/ozy-ahmad/Drum-kit/tree/master/Drum%20Kit%20Starting%20Files"
+                target="_blank"
+              >
+                Github Link
+              </CardLink>
+              <CardLink href="https://mydrumkits.netlify.app/" target="_blank">
+                Website Link
+              </CardLink>
             </CardBody>
           </Card>
         </Col>
         <Col>
           <Card>
             <CardBody>
-              <CardTitle>Card title</CardTitle>
-              <CardSubtitle>Card subtitle</CardSubtitle>
+              <CardTitle>
+                <strong>CircleMessenger </strong>
+              </CardTitle>
+              <CardSubtitle> Web chat application</CardSubtitle>
             </CardBody>
-            <img width="100%" src="/assets/318x180.svg" alt="Card images cap" />
+            <img width="100%" src={circle} alt="Circle Messenger" />
             <CardBody>
               <CardText>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                It is an executive real time web chat application for
+                professionals. this app is build by using ReactJS, NodeJs.
               </CardText>
               <CardLink href="#">Github Link</CardLink>
-              <CardLink href="#">Website Link</CardLink>
+              <CardLink href="https://circlemessenger.com" target="_blank">
+                Website Link
+              </CardLink>
             </CardBody>
           </Card>
         </Col>
@@ -103,51 +124,81 @@ const Portfolio = () => {
         <Col>
           <Card>
             <CardBody>
-              <CardTitle>Card title</CardTitle>
-              <CardSubtitle>Card subtitle</CardSubtitle>
+              <CardTitle>
+                <strong>Dice game</strong>
+              </CardTitle>
+              <CardSubtitle>Document Object Model</CardSubtitle>
             </CardBody>
-            <img width="100%" src="/assets/318x180.svg" alt="Card images cap" />
+            <img width="100%" src={dice} alt="Dice game" />
             <CardBody>
               <CardText>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                This is a dice game board for 2 player can be the for who have
+                bigger number will be the winner. this app build using HTML,CSS,
+                JS
               </CardText>
-              <CardLink href="#">Github Link</CardLink>
-              <CardLink href="#">Website Link</CardLink>
+              <CardLink
+                href="https://github.com/ozy-ahmad/learn-DOM-dice-game-udemy"
+                target="_blank"
+              >
+                Github Link
+              </CardLink>
+              <CardLink href="https://dicegamedom.netlify.app/" target="_blank">
+                Website Link
+              </CardLink>
             </CardBody>
           </Card>
         </Col>
         <Col>
           <Card>
             <CardBody>
-              <CardTitle>Card title</CardTitle>
-              <CardSubtitle>Card subtitle</CardSubtitle>
+              <CardTitle>
+                {" "}
+                <strong>21AM</strong>
+              </CardTitle>
+              <CardSubtitle>Personal website</CardSubtitle>
             </CardBody>
-            <img width="100%" src="/assets/318x180.svg" alt="Card images cap" />
+            <img width="100%" src={am} alt="Card images cap" />
             <CardBody>
               <CardText>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                This is personal website that I made when first time learn HTML
+                and CSS
               </CardText>
-              <CardLink href="#">Github Link</CardLink>
-              <CardLink href="#">Website Link</CardLink>
+              <CardLink
+                href="https://github.com/ozy-ahmad/Personal-web"
+                target="_blank"
+              >
+                Github Link
+              </CardLink>
+              <CardLink href="https://21am.netlify.app/" target="_blank">
+                Website Link
+              </CardLink>
             </CardBody>
           </Card>
         </Col>
         <Col>
           <Card>
             <CardBody>
-              <CardTitle>Card title</CardTitle>
-              <CardSubtitle>Card subtitle</CardSubtitle>
+              <CardTitle>
+                {" "}
+                <strong>thisisme</strong>
+              </CardTitle>
+              <CardSubtitle>Personal website</CardSubtitle>
             </CardBody>
-            <img width="100%" src="/assets/318x180.svg" alt="Card images cap" />
+            <img width="100%" src={thisisozy} alt="personal website" />
             <CardBody>
               <CardText>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                This is personal website that i made which is one of th project
+                of my udemy course. this website build using HTML, CSS (SASS),
               </CardText>
-              <CardLink href="#">Github Link</CardLink>
-              <CardLink href="#">Website Link</CardLink>
+              <CardLink
+                href="https://github.com/ozy-ahmad/udemy-personal-web"
+                target="_blank"
+              >
+                Github Link
+              </CardLink>
+              <CardLink href="https://thisisozy.netlify.app/" target="_blank">
+                Website Link
+              </CardLink>
             </CardBody>
           </Card>
         </Col>
@@ -155,5 +206,4 @@ const Portfolio = () => {
     </Container>
   );
 };
-
 export default Portfolio;

@@ -11,7 +11,7 @@ import {
 } from "reactstrap";
 import "../navbars/navbar.css";
 
-const Navbars = (props) => {
+const Navbars = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
@@ -29,7 +29,7 @@ const Navbars = (props) => {
             </Link>{" "}
           </NavItem>
           <NavItem>
-            <Link className="nav-link" to="/">
+            <Link className="nav-link" to="/about">
               About
             </Link>
           </NavItem>
@@ -44,14 +44,23 @@ const Navbars = (props) => {
             </Link>
           </NavItem> */}
           <NavItem>
-            <Link className="nav-link" to="/hireme">
-              Hireme
-            </Link>
+            <a
+              className="nav-link"
+              href="https://www.linkedin.com/in/ahmad-fakhrozy-9069741a1/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Hire me
+            </a>
           </NavItem>
           <NavItem>
-            <Link to="https://github.com/ozy-ahmad" target="_blank">
+            <a
+              href="https://github.com/ozy-ahmad"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-github fa-2x"></i>
-            </Link>
+            </a>
           </NavItem>
         </Nav>
       </Collapse>
