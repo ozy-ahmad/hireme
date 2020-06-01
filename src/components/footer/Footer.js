@@ -22,8 +22,12 @@ function Footer() {
         </Link>
         <p>
           Copyright &copy; Ahmad Fakhrozy {currentYear} | The design is base on
-          inspiration on <i class="icon-heart4" aria-hidden="true"></i>{" "}
-          <a href="https://colorlib.com" target="_blank">
+          inspiration at <i className="icon-heart4"></i>{" "}
+          <a
+            href="https://colorlib.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             Colorlib
           </a>
         </p>

@@ -55,9 +55,12 @@ class About extends Component {
                     </Link>
                   </p>
                   <p>
-                    <a href="" className="btn btn-primary btn-outline">
+                    <Link
+                      to="/portfolio"
+                      className="btn btn-primary btn-outline"
+                    >
                       View Portfolio
-                    </a>
+                    </Link>
                   </p>
                 </div>
               </div>
