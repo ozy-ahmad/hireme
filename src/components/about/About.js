@@ -41,24 +41,31 @@ class About extends Component {
                     web server and google cloud. Open to job opportunities!
                   </p>
                   <p className="colorlib-social-icons">
-                    <Link to="https://facebook.com/" target="_blank">
+                    <Link
+                      to="https://www.facebook.com/ahmadfakhrozy/"
+                      target="_blank"
+                    >
                       <i className="social-icon fab fa-facebook-f"></i>
                     </Link>
-                    <Link to="https://twitter.com/" target="_blank">
-                      <i className="social-icon fab fa-twitter"></i>
+                    <Link
+                      to="https://www.linkedin.com/in/ahmad-fakhrozy-9069741a1/"
+                      target="_blank"
+                    >
+                      <i className="social-icon fab fa-linkedin"></i>
                     </Link>
                     <Link to="https://instagram.com/ozy_ahmad" target="_blank">
                       <i className="social-icon fab fa-instagram"></i>
                     </Link>
-                    <Link to="https://gmail.com/" target="_blank">
+                    <a
+                      href="mailto:ahmadfakhrozy@gmail.com"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
                       <i className="social-icon fas fa-envelope"></i>
-                    </Link>
+                    </a>
                   </p>
                   <p>
-                    <Link
-                      to="/portfolio"
-                      className="btn btn-primary btn-outline"
-                    >
+                    <Link to="/portfolio" className="btn btn-outline-primary ">
                       View Portfolio
                     </Link>
                   </p>
@@ -69,38 +76,44 @@ class About extends Component {
             <div className="row">
               <div className="col-md-4 animate-box">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer vel imperdiet nunc. Quisque imperdiet varius elit,
-                  quis laoreet tortor dictum sit amet. Curabitur nibh ipsum,
-                  vehicula id sollicitudin non, laoreet at dui. Fusce pulvinar
-                  urna enim, vitae viverra risus volutpat id. Duis eget pretium
-                  urna, eget convallis sapien. Sed arcu diam, porttitor ut risus
-                  pretium, bibendum egestas libero. Sed libero tortor, aliquam
-                  vitae rhoncus a, porttitor vel odio.
+                  In my Four years at Universitas Brawijaya, I’ve completed a
+                  great deal of coursework on Teaching English as Foreign
+                  Language (TEFL) and Teaching methodology, including
+                  Linguistics, where I learned and applied skills such as
+                  teaching and volunteering in elementary school. I also joined
+                  a lot of organizations. Then, In my last semester I joined
+                  International Invention & Innovative competition in Malaysia.
+                  Me and my team bring a media (board game) for learning tenses
+                  which awarded as Bronze medal.
                 </p>
               </div>
               <div className="col-md-4 animate-box">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer vel imperdiet nunc. Quisque imperdiet varius elit,
-                  quis laoreet tortor dictum sit amet. Curabitur nibh ipsum,
-                  vehicula id sollicitudin non, laoreet at dui. Fusce pulvinar
-                  urna enim, vitae viverra risus volutpat id. Duis eget pretium
-                  urna, eget convallis sapien. Sed arcu diam, porttitor ut risus
-                  pretium, bibendum egestas libero. Sed libero tortor, aliquam
-                  vitae rhoncus a, porttitor vel odio.
+                  In addition, I spent one year Internship program for UB Radio
+                  which one of broadcasting media in my campus. I handle the
+                  Event organizer team arranged event for radio activity and as
+                  an announcer which Handles the preparation of program content,
+                  interview guests, and discuss issues with listeners. I also
+                  make my own podcast as a technical director, producer, and
+                  including as a Podcaster . but i wanted to move into more tech
+                  stuff. then, I decided to learn some technology that used in
+                  developing website by taking some online course in udemy and
+                  join Glints Academy x ImpactByte as a fullstack javascript
+                  developer.
                 </p>
               </div>
               <div className="col-md-4 animate-box">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer vel imperdiet nunc. Quisque imperdiet varius elit,
-                  quis laoreet tortor dictum sit amet. Curabitur nibh ipsum,
-                  vehicula id sollicitudin non, laoreet at dui. Fusce pulvinar
-                  urna enim, vitae viverra risus volutpat id. Duis eget pretium
-                  urna, eget convallis sapien. Sed arcu diam, porttitor ut risus
-                  pretium, bibendum egestas libero. Sed libero tortor, aliquam
-                  vitae rhoncus a, porttitor vel odio.
+                  In Glints Academy, I've completed this academy as a Full-stack
+                  Javascript developer. the stack that I learn are HTML, CSS
+                  (SASS), Javascript including ReactJS, NodeJS, ExpressJS,
+                  MongoDB, Mysql, mongoose, sequelize, and more. I also learn
+                  how to deploy client side and server side to cloud such as
+                  Google Cloud and Amazon web service which also using Nginx.
+                  After all of the technical skill that I learn from ImpactByte
+                  as the collaborator in Glints Academy. This program also
+                  provides me with some soft skill such as interview techniques
+                  including technical mock interview and interview simulation.
                 </p>
               </div>
             </div>

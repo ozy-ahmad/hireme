@@ -79,3 +79,11 @@ h6 {
 .js .animate-box {
   opacity: 0;
 }
+@media screen and (max-width: 767.98px) {
+  .cardM {
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+    flex-basis: unset;
+  }
+}

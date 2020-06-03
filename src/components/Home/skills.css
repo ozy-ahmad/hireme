@@ -8,3 +8,83 @@ img.col.skills-image {
   justify-content: center;
   justify-items: center;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Playfair Display", Georgia, serif;
+  margin: 0 0 30px 0;
+}
+.bold {
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  right: 0;
+  font-size: 250px;
+  color: #f0f0f0;
+  font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+  .bold {
+    font-size: 60px;
+  }
+}
+.intro-heading {
+  margin-bottom: 3em;
+}
+.intro-heading h2 {
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 1.5em;
+  color: #000;
+  position: relative;
+}
+.intro-heading span {
+  display: block;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-bottom: 0em;
+  margin-top: 10em;
+  color: #bfbfbf;
+  font-weight: 600;
+}
+.rotate {
+  position: absolute;
+  top: 0.4em;
+  left: -50px;
+}
+.rotate .heading {
+  font-family: "Karla", Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transform-origin: left top 0;
+  -moz-transform-origin: left top 0;
+  -ms-transform-origin: left top 0;
+  -o-transform-origin: left top 0;
+  transform-origin: left top 0;
+  position: relative;
+}
+.rotate .heading:after {
+  position: absolute;
+  top: 8px;
+  right: -40px;
+  content: "";
+  background: #000;
+  width: 40px;
+  height: 1px;
+}
+
+.js .animate-box {
+  opacity: 0;
+}

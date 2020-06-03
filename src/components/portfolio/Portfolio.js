@@ -44,7 +44,7 @@ const Portfolio = () => {
         </div>
       </div>
       <Row>
-        <Col>
+        <Col className="cardM">
           <Card>
             <CardBody>
               <CardTitle>
@@ -70,7 +70,7 @@ const Portfolio = () => {
             </CardBody>
           </Card>
         </Col>
-        <Col>
+        <Col className="cardM">
           <Card>
             <CardBody>
               <CardTitle>
@@ -97,7 +97,7 @@ const Portfolio = () => {
             </CardBody>
           </Card>
         </Col>
-        <Col>
+        <Col className="cardM">
           <Card>
             <CardBody>
               <CardTitle>
@@ -121,7 +121,7 @@ const Portfolio = () => {
       </Row>
       <p />
       <Row>
-        <Col>
+        <Col className="cardM">
           <Card>
             <CardBody>
               <CardTitle>
@@ -148,7 +148,7 @@ const Portfolio = () => {
             </CardBody>
           </Card>
         </Col>
-        <Col>
+        <Col className="cardM">
           <Card>
             <CardBody>
               <CardTitle>
@@ -175,7 +175,7 @@ const Portfolio = () => {
             </CardBody>
           </Card>
         </Col>
-        <Col>
+        <Col className="cardM">
           <Card>
             <CardBody>
               <CardTitle>
