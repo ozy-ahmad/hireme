@@ -11,12 +11,13 @@ function Footer() {
         <Link to="https://facebook.com/" target="_blank">
           <i className="social-icon fab fa-facebook-f"></i>
         </Link>
-        <Link
-          to="https://www.linkedin.com/in/ahmad-fakhrozy-9069741a1/"
+        <a
+          href="https://www.linkedin.com/in/ahmad-fakhrozy-9069741a1/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <i className="social-icon fab fa-linkedin"></i>
-        </Link>
+        </a>
         <Link to="https://instagram.com/ozy_ahmad" target="_blank">
           <i className="social-icon fab fa-instagram"></i>
         </Link>

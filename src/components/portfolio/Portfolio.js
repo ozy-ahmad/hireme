@@ -111,7 +111,9 @@ const Portfolio = () => {
                 It is an executive real time web chat application for
                 professionals. this app is build by using ReactJS, NodeJs.
               </CardText>
-              <CardLink href="#">Github Link</CardLink>
+              <CardLink href="https://github.com/Glints-x-IB-Chat-box">
+                Github Link
+              </CardLink>
               <CardLink href="https://circlemessenger.com" target="_blank">
                 Website Link
               </CardLink>
