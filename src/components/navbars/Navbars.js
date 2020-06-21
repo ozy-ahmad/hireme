@@ -22,7 +22,7 @@ const Navbars = () => {
       </NavbarBrand>
       <NavbarToggler onClick={toggle} />
       <Collapse isOpen={isOpen} navbar>
-        <Nav className="ml-auto" navbar style={{ padding: " 0 5rem" }}>
+        <Nav className="ml-auto" navbar>
           <NavItem>
             <Link className="nav-link" to="/">
               Home

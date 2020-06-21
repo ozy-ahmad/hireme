@@ -41,12 +41,13 @@ class About extends Component {
                     web server and google cloud. Open to job opportunities!
                   </p>
                   <p className="colorlib-social-icons">
-                    <Link
-                      to="https://www.facebook.com/ahmadfakhrozy/"
+                    <a
+                      href="https://www.facebook.com/ahmadfakhrozy/"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <i className="social-icon fab fa-facebook-f"></i>
-                    </Link>
+                    </a>
                     <a
                       href="https://www.linkedin.com/in/ahmad-fakhrozy-9069741a1/"
                       target="_blank"
@@ -54,9 +55,13 @@ class About extends Component {
                     >
                       <i className="social-icon fab fa-linkedin"></i>
                     </a>
-                    <Link to="https://instagram.com/ozy_ahmad" target="_blank">
+                    <a
+                      href="https://instagram.com/ozy_ahmad"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <i className="social-icon fab fa-instagram"></i>
-                    </Link>
+                    </a>
                     <a
                       href="mailto:ahmadfakhrozy@gmail.com"
                       rel="noopener noreferrer"

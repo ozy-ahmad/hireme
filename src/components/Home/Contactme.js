@@ -5,14 +5,14 @@ export default class Contactme extends Component {
     return (
       <section className="contact-me jumbotron jumbotron-fluid">
         <div className=" container">
-          <h2>Get In Touch</h2>
-          <h3>Send me something interesting</h3>
+          <h2>Get in touch</h2>
+
           <p className="contact-message"></p>
           <a
             className="btn btn-outline-primary"
             href="mailto:ahmadfakhrozy@gmail.com"
           >
-            CONTACT ME
+            E-MAIL
           </a>
         </div>
       </section>

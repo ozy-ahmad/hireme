@@ -2,11 +2,13 @@
   background-color: #ededed;
 } */
 a.navbar-brand {
-  padding-left: 5rem;
+  padding-left: 1rem;
 }
+
 a.nav-link {
   padding-right: 50rem;
 }
+
 nav {
   width: 100%;
   margin: 0 auto;
@@ -16,9 +18,11 @@ nav {
   padding: 20px 0;
   box-shadow: 0 3px 2px #dedede;
 }
+
 nav ul li {
   display: inline-block;
 }
+
 nav ul li a {
   display: flex;
   text-decoration: none;
@@ -26,6 +30,13 @@ nav ul li a {
   font-weight: 800;
   margin: 0 10px;
 }
+
 .logo-image {
   width: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  a.navbar-brand {
+    padding-left: 0;
+  }
 }
