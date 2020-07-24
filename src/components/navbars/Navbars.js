@@ -50,7 +50,7 @@ const Navbars = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Hire me
+              <i className=" fab fa-linkedin fa-1x"></i>
             </a>
           </NavItem>
           <NavItem>

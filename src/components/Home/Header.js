@@ -8,7 +8,7 @@ class Header extends Component {
       <Container>
         <img className="header-image" src={Logo} alt="Logo" />
         <p className="name-header">Ahmad Fakhrozy</p>
-        <p className="title-header">Full-stack Javascript Developer</p>
+        <p className="title-header">CLOUD ENGINEER</p>
       </Container>
     );
   }

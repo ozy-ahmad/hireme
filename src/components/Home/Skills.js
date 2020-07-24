@@ -53,7 +53,9 @@ class Skills extends Component {
                         <p>- Algorithms and Data Structures.</p>
                         <p>- Collaborated through Git project-based</p>
                         <p>- Agile and SCRUM development</p>
-                        <p>- Amazon Web Service and Google Cloud Plateform</p>
+                        <p>- Amazon Web Service and Google Cloud Platform</p>
+                        <p>- Docker and Kubernetes</p>
+                        <p>- Linux, bash, vim</p>
                       </div>
                     </div>
                   </div>

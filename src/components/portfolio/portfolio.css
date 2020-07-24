@@ -9,6 +9,7 @@ h6 {
   font-family: "Playfair Display", Georgia, serif;
   margin: 0 0 30px 0;
 }
+
 .bold {
   position: absolute;
   top: 2rem;
@@ -18,14 +19,18 @@ h6 {
   color: #f0f0f0;
   font-weight: 700;
 }
+
 @media screen and (max-width: 768px) {
   .bold {
+    display: none;
     font-size: 60px;
   }
 }
+
 .intro-heading {
   margin-bottom: 3em;
 }
+
 .intro-heading h2 {
   font-size: 34px;
   font-weight: 400;
@@ -34,6 +39,7 @@ h6 {
   color: #000;
   position: relative;
 }
+
 .intro-heading span {
   display: block;
   text-transform: uppercase;
@@ -44,11 +50,13 @@ h6 {
   color: #bfbfbf;
   font-weight: 600;
 }
+
 .rotate {
   position: absolute;
   top: 0.4em;
   left: -50px;
 }
+
 .rotate .heading {
   font-family: "Karla", Arial, sans-serif;
   font-size: 14px;
@@ -66,6 +74,7 @@ h6 {
   transform-origin: left top 0;
   position: relative;
 }
+
 .rotate .heading:after {
   position: absolute;
   top: 8px;
@@ -79,6 +88,7 @@ h6 {
 .js .animate-box {
   opacity: 0;
 }
+
 @media screen and (max-width: 767.98px) {
   .cardM {
     width: 100%;

@@ -34,11 +34,11 @@ class About extends Component {
                     <h2 className="heading">About</h2>
                   </div>
                   <p>
-                    Full-stack developer which love to challenge himself to
-                    learn new things. i've build my own fullstack apps using
-                    HTML, CSS, Javascript, reactJS, MongoDB, Mongoose,
-                    Sequelize, MySql, git and deploy my own app into a amazon
-                    web server and google cloud. Open to job opportunities!
+                    CLOUD ENGINEER which love to challenge himself to learn new
+                    things. I've build my own fullstack apps using HTML, CSS,
+                    Javascript, reactJS, MongoDB, Mongoose, Sequelize, MySql,
+                    git and deploy my own app into a Amazon Web Server and
+                    Google Cloud Platform.
                   </p>
                   <p className="colorlib-social-icons">
                     <a
@@ -115,11 +115,12 @@ class About extends Component {
                   (SASS), Javascript including ReactJS, NodeJS, ExpressJS,
                   MongoDB, Mysql, mongoose, sequelize, and more. I also learn
                   how to deploy client side and server side to cloud such as
-                  Google Cloud and Amazon web service which also using Nginx.
-                  After all of the technical skill that I learn from ImpactByte
-                  as the collaborator in Glints Academy. This program also
-                  provides me with some soft skill such as interview techniques
-                  including technical mock interview and interview simulation.
+                  Google Cloud Platform and Amazon Web Server which also using
+                  Nginx. After all of the technical skill that I learn from
+                  ImpactByte as the collaborator in Glints Academy. While
+                  learning as full stack developer, I also join Online Academy
+                  Digitalent by Kominfo collaborate with Gooogle as Google Cloud
+                  Associate Engineer.
                 </p>
               </div>
             </div>
