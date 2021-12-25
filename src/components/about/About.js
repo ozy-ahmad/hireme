@@ -34,11 +34,13 @@ class About extends Component {
                     <h2 className="heading">About</h2>
                   </div>
                   <p>
-                    CLOUD ENGINEER which love to challenge himself to learn new
-                    things. I've build my own fullstack apps using HTML, CSS,
-                    Javascript, reactJS, MongoDB, Mongoose, Sequelize, MySql,
-                    git and deploy my own app into a Amazon Web Server and
-                    Google Cloud Platform.
+                    A lifelong learner which love to challenge himself to learn
+                    new things. Experienced in Cloud Engineering role with years
+                    experience working with costumers on a daily basis using
+                    Microsoft Azure, AWS, GCP, Linux and Windows server
+                    administrator. Good ability to communicate effectively with
+                    customers, colleagues, and management to deliver company
+                    targets and improve efficiency in the work environment.
                   </p>
                   <p className="colorlib-social-icons">
                     <a
@@ -79,7 +81,7 @@ class About extends Component {
               </div>
             </div>
 
-            <div className="row">
+            {/* <div className="row">
               <div className="col-md-4 animate-box">
                 <p>
                   In my Four years at Universitas Brawijaya, I’ve completed a
@@ -123,7 +125,7 @@ class About extends Component {
                   Associate Engineer.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

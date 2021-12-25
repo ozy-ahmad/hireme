@@ -21,7 +21,7 @@ class Skills extends Component {
                       <p>
                         Talent you have naturally, skill only developed by hours
                         and hours and hours of beating on your craft <br></br>
-                        Will Smith
+                        -Will Smith
                       </p>
                     </div>
                   </div>
