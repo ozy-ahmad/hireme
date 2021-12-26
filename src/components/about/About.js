@@ -43,13 +43,13 @@ class About extends Component {
                     targets and improve efficiency in the work environment.
                   </p>
                   <p className="colorlib-social-icons">
-                    <a
+                    {/* <a
                       href="https://www.facebook.com/ahmadfakhrozy/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <i className="social-icon fab fa-facebook-f"></i>
-                    </a>
+                    </a> */}
                     <a
                       href="https://www.linkedin.com/in/ahmad-fakhrozy-9069741a1/"
                       target="_blank"
@@ -57,13 +57,13 @@ class About extends Component {
                     >
                       <i className="social-icon fab fa-linkedin"></i>
                     </a>
-                    <a
+                    {/* <a
                       href="https://instagram.com/ozy_ahmad"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <i className="social-icon fab fa-instagram"></i>
-                    </a>
+                    </a> */}
                     <a
                       href="mailto:ahmadfakhrozy@gmail.com"
                       rel="noopener noreferrer"
