@@ -46,22 +46,34 @@ const Navbars = () => {
           <NavItem>
             <a
               className="nav-link"
+              href="https://medium.com/@ozy_ahmad"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p>Blog</p>
+              {/* <i className=" fab fa-medium fa-1x"></i> */}
+            </a>
+          </NavItem>
+
+          {/* <NavItem>
+            <a
+              className="nav-link"
               href="https://www.linkedin.com/in/ahmad-fakhrozy-9069741a1/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className=" fab fa-linkedin fa-1x"></i>
             </a>
-          </NavItem>
-          <NavItem>
+          </NavItem> */}
+          {/* <NavItem>
             <a
               href="https://github.com/ozy-ahmad"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-github fa-2x"></i>
+              <i className="fab fa-github fa-1x"></i>
             </a>
-          </NavItem>
+          </NavItem> */}
         </Nav>
       </Collapse>
     </Navbar>

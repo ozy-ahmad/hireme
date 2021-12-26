@@ -33,29 +33,42 @@ class Skills extends Component {
                     </div>
                     <div className="col-md-12">
                       <div className="services animate-box">
-                        <h3>1 - Front-end </h3>
+                        <h3>1 - Proramming and web development </h3>
                         <p>
-                          designing, and building website with mockup, HTML,
-                          CSS, Vanilla JS, ReactJS, JQuery and Git until hosting
-                          it on the Internet.
+                          {" "}
+                          - Designing, and building website with mockup, HTML,
+                          CSS, Vanilla JS, ReactJS, JQuery and until hosting it
+                          on the Internet.
+                        </p>
+                        <p>
+                          {" "}
+                          - Build a web API service with Node.js, ExpressJS and
+                          then designing data flow in an actual database
+                          including SQL and NoSQL.
                         </p>
                       </div>
-                      <div className="services animate-box">
+                      {/* <div className="services animate-box">
                         <h3>2 - Back-end</h3>
                         <p>
                           Build a web API service with Node.js, ExpressJS and
                           then structure our data in an actual database
                           including SQL and NoSQL.
                         </p>
-                      </div>
+                      </div> */}
                       <div className="services animate-box">
-                        <h3>3 - Others</h3>
+                        <h3>2 - Infrastucure and Others</h3>
                         <p>- Algorithms and Data Structures.</p>
-                        <p>- Collaborated through Git project-based</p>
-                        <p>- Agile and SCRUM development</p>
-                        <p>- Amazon Web Service and Google Cloud Platform</p>
-                        <p>- Docker and Kubernetes</p>
-                        <p>- Linux, bash, vim</p>
+                        <p>- Collaborated through Git project-based.</p>
+                        <p>- Agile and SCRUM development.</p>
+                        <p>
+                          - Amazon Web Service, Microsoft Azure and Google Cloud
+                          Platform.
+                        </p>
+                        <p>
+                          - Containerization and Orchestration using Docker and
+                          Kubernetes.
+                        </p>
+                        <p>- Linux and Windows administrator, bash, vim.</p>
                       </div>
                     </div>
                   </div>

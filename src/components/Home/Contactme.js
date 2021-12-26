@@ -7,12 +7,14 @@ export default class Contactme extends Component {
         <div className=" container">
           <h2>Get in touch</h2>
 
-          <p className="contact-message"></p>
+          <p className="contact-message">
+            Have a question or want to work together?
+          </p>
           <a
             className="btn btn-outline-primary"
             href="mailto:ahmadfakhrozy@gmail.com"
           >
-            E-MAIL
+            Mail me
           </a>
         </div>
       </section>
